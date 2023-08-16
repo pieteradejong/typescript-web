@@ -20,6 +20,7 @@
     "typescript": "^5.1.6"
   },
   "dependencies": {
+    "@microsoft/eslint-formatter-sarif": "^2.1.7",
     "axios": "^1.4.0",
     "json-server": "^0.17.3"
   }
