@@ -4,12 +4,17 @@
   "description": "mastering TypeScript - build a Web framework",
   "main": "index.js",
   "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1"
+    "start:db": "json-server -w db.json",
+    "start:parcel": "parcel index.html"
   },
   "keywords": [],
   "author": "",
   "license": "ISC",
   "devDependencies": {
     "typescript": "^5.1.6"
+  },
+  "dependencies": {
+    "axios": "^1.4.0",
+    "json-server": "^0.17.3"
   }
 }
