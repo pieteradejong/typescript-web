@@ -1,15 +1,6 @@
-import { User } from "./models/User";
+import { User } from './models/User';
 
-const user = new User({ name: 'myname', age: 21 });
+const user = new User({ name: 'jake yoohoo', age: 0 });
 
-user.on('change', () => {
-    console.log('fmvkdlsjvfs');
-});
-user.on('change', () => {
-    console.log('907867');
-});
-user.on('save', () => {
-    console.log('SAVE fd');
-});
+user.save();
 
-user.trigger('save');
