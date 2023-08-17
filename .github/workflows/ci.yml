@@ -7,6 +7,7 @@ jobs:
     runs-on: ubuntu-latest
     steps:
       - uses: actions/checkout@v1
-      - uses: stefanoeb/eslint-action@1.0.2
+      - uses: github/eslint-action@v3
         with:
-          files: src/
+          eslint-version: '7.x'
+          working-directory: ./src
