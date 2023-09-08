@@ -2,6 +2,7 @@
   "name": "typescript-web",
   "version": "1.0.0",
   "description": "mastering TypeScript - build a Web framework",
+  "type": "module",
   "main": "index.js",
   "scripts": {
     "start:db": "json-server -w db.json",

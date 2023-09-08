@@ -1,3 +1,7 @@
+# Custom
+src/**/*.js
+# End of Custom
+
 lib-cov
 *.seed
 *.log
