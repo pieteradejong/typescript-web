@@ -1,5 +1,6 @@
 # Custom
 src/**/*.js
+db.json
 # End of Custom
 
 lib-cov
